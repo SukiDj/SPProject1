@@ -27,11 +27,14 @@ class Program
 
                     // Procesiranje zahteva
                     string author = request.QueryString["author"];
+                    Console.WriteLine(author);
+                    Console.WriteLine(BookCache.ContainsKey(author));
                     if (BookCache.ContainsKey(author))
                     {
                         // Slanje keširanog odgovora
-                        string cachedResponse = BookCache.GetValue(author);
-                        byte[] buffer = System.Text.Encoding.UTF8.GetBytes(cachedResponse);
+                        List<Book> cachedResponse = BookCache.GetValue(author);
+                        string responseBody = Newtonsoft.Json.JsonConvert.SerializeObject(cachedResponse);
+                        byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseBody);
                         response.ContentLength64 = buffer.Length;
                         Stream output = response.OutputStream;
                         output.Write(buffer, 0, buffer.Length);
@@ -42,7 +45,10 @@ class Program
                         BookSearchService bookSearchService = new BookSearchService();
                         List<Book> books = bookSearchService.SearchBooksByAuthor(author);
 
-                        BookCache.Add(author, books.ToString());
+                        BookCache.Add(author, books);
+
+                        //if(BookCache.GetValue(author).Count > 0)
+                        //    Console.WriteLine(BookCache.GetValue(author).First().Title);
 
                         // Slanje odgovora klijentu
                         string responseBody = Newtonsoft.Json.JsonConvert.SerializeObject(books);

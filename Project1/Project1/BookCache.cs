@@ -9,18 +9,18 @@ namespace Project1
     public class BookCache
     {
         // Koristimo Dictionary kao hash mapu za keširanje odgovora
-        private static Dictionary<string, string> cache = new Dictionary<string, string>();
+        private static Dictionary<string, List<Book>> cache = new Dictionary<string, List<Book>>();
         public static bool ContainsKey(string key)
         {
             return cache.ContainsKey(key);
         }
 
-        public static string GetValue(string key)
+        public static List<Book> GetValue(string key)
         {
             return cache[key];
         }
 
-        public static void Add(string key, string value)
+        public static void Add(string key, List<Book> value)
         {
             cache[key] = value;
         }
