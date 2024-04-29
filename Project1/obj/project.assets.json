@@ -177,11 +177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1.csproj",
+      "projectUniqueName": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Project1.csproj",
       "projectName": "Project1",
-      "projectPath": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1.csproj",
+      "projectPath": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Project1.csproj",
       "packagesPath": "C:\\Users\\Aleksandar\\.nuget\\packages\\",
-      "outputPath": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\obj\\",
+      "outputPath": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aleksandar\\AppData\\Roaming\\NuGet\\NuGet.Config",
