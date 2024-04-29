@@ -1,0 +1,14 @@
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\bin\Debug\net8.0\Client.exe
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\bin\Debug\net8.0\Client.deps.json
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\bin\Debug\net8.0\Client.runtimeconfig.json
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\bin\Debug\net8.0\Client.dll
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\bin\Debug\net8.0\Client.pdb
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.dll
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\refint\Client.dll
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.pdb
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
+D:\ELFAK\III godina\VI semestar\SP\Projekti\Project1\Client\Client\obj\Debug\net8.0\ref\Client.dll
