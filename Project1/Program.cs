@@ -27,10 +27,22 @@ class Program
 
                     // Procesiranje zahteva
                     string author = request.QueryString["author"];
-                    if (!string.IsNullOrEmpty(author))
+                    if (BookCache.ContainsKey(author))
+                    {
+                        // Slanje keširanog odgovora
+                        string cachedResponse = BookCache.GetValue(author);
+                        byte[] buffer = System.Text.Encoding.UTF8.GetBytes(cachedResponse);
+                        response.ContentLength64 = buffer.Length;
+                        Stream output = response.OutputStream;
+                        output.Write(buffer, 0, buffer.Length);
+                        output.Close();
+                    }
+                    else if (!string.IsNullOrEmpty(author))
                     {
                         BookSearchService bookSearchService = new BookSearchService();
                         List<Book> books = bookSearchService.SearchBooksByAuthor(author);
+
+                        BookCache.Add(author, books.ToString());
 
                         // Slanje odgovora klijentu
                         string responseBody = Newtonsoft.Json.JsonConvert.SerializeObject(books);
