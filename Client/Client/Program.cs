@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 3; i++)
         {        
             // Kreiranje liste autora za pretragu
             List<string> authors = new List<string> { "Stephen King", "J.K. Rowling", "George Orwell" };

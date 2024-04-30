@@ -23,33 +23,42 @@ namespace Project1
             string query = $"?author={author}&api-key={apiKey}";
             string fullUrl = apiUrl + query;
 
-            using (HttpClient httpClient = new HttpClient())
+            try
             {
-                HttpResponseMessage apiResponse = httpClient.GetAsync(fullUrl).Result;
-                if (apiResponse.IsSuccessStatusCode)
+                using (HttpClient httpClient = new HttpClient())
                 {
-                    string responseBody = apiResponse.Content.ReadAsStringAsync().Result;
-                    dynamic jsonData = JsonConvert.DeserializeObject(responseBody);
-                    foreach (var item in jsonData.results)
+                    HttpResponseMessage apiResponse = httpClient.GetAsync(fullUrl).Result;
+                    if (apiResponse.IsSuccessStatusCode)
                     {
-                        Book book = new Book
+                        string responseBody = apiResponse.Content.ReadAsStringAsync().Result;
+                        dynamic jsonData = JsonConvert.DeserializeObject(responseBody);
+                        foreach (var item in jsonData.results)
                         {
-                            Url = item.url,
-                            PublicationDate = item.publication_dt,
-                            Title = item.book_title,
-                            Author = item.book_author,
-                            Summary = item.summary
-                        };
-                        books.Add(book);
+                            Book book = new Book
+                            {
+                                Url = item.url,
+                                PublicationDate = item.publication_dt,
+                                Title = item.book_title,
+                                Author = item.book_author,
+                                Summary = item.summary
+                            };
+                            books.Add(book);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {apiResponse.StatusCode}");
                     }
                 }
-                else
-                {
-                    Console.WriteLine($"Error: {apiResponse.StatusCode}");
-                }
+
+                return books;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine($"Error in function SearchBooksByAuthor: {e.Message}");
+                throw;
             }
 
-            return books;
         }
     }
 }
