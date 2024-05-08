@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|d:\\elfak\\iii godina\\vi semestar\\sp\\projekti\\project1\\project1\\project1\\bookcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\project1\\bookcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\bookcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\project1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|d:\\elfak\\iii godina\\vi semestar\\sp\\projekti\\project1\\project1\\project1\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|d:\\elfak\\iii godina\\vi semestar\\sp\\projekti\\project1\\project1\\project1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|d:\\elfak\\iii godina\\vi semestar\\sp\\projekti\\project1\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|d:\\elfak\\iii godina\\vi semestar\\sp\\projekti\\project1\\project1\\project1\\booksearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\project1\\booksearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC17F54E-3AFE-48AF-B4F2-6B192129BAAA}|Project1\\Project1.csproj|solutionrelative:project1\\booksearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HttpServer.cs",
               "DocumentMoniker": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\HttpServer.cs",
               "RelativeDocumentMoniker": "Project1\\HttpServer.cs",
               "ToolTip": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\HttpServer.cs",
               "RelativeToolTip": "Project1\\HttpServer.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAwwFoAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:38:16.349Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Project1\\BookSearchService.cs",
               "ToolTip": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\BookSearchService.cs",
               "RelativeToolTip": "Project1\\BookSearchService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAiwDkAAAA1AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:33:44.065Z",
               "EditorCaption": ""
@@ -66,33 +66,33 @@
               "RelativeDocumentMoniker": "Project1\\BookCache.cs",
               "ToolTip": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\BookCache.cs",
               "RelativeToolTip": "Project1\\BookCache.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:33:43.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Book.cs",
               "RelativeDocumentMoniker": "Project1\\Book.cs",
               "ToolTip": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Book.cs",
               "RelativeToolTip": "Project1\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:33:42.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Program.cs",
               "RelativeDocumentMoniker": "Project1\\Program.cs",
               "ToolTip": "D:\\ELFAK\\III godina\\VI semestar\\SP\\Projekti\\Project1\\Project1\\Project1\\Program.cs",
               "RelativeToolTip": "Project1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T12:32:25.737Z",
               "EditorCaption": ""
