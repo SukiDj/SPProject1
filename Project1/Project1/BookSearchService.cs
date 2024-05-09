@@ -34,14 +34,7 @@ public class BookSearchService
                     dynamic jsonData = JsonConvert.DeserializeObject(responseBody);
                     foreach (var item in jsonData.results)
                     {
-                        Book book = new Book
-                        {
-                            Url = item.url,
-                            PublicationDate = item.publication_dt,
-                            Title = item.book_title,
-                            Author = item.book_author,
-                            Summary = item.summary
-                        };
+                        Book book = new Book(item.url.ToString(), item.publication_dt.ToString(), item.book_title.ToString(), item.book_author.ToString(), item.summary.ToString());
                         books.Add(book);
                     }
                 }
